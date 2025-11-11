@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.0.11201.2 d18.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{AE9586B8-4ACF-4F8D-86E4-9786C17F1F4B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{CA1285CD-74E2-4CF7-BADF-34EC604546FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ENGSOFT.EShop.Catalog.API", "Services\Catalog\ENGSOFT.EShop.Catalog.API\ENGSOFT.EShop.Catalog.API.csproj", "{BDFE79F5-7069-4BC0-A97B-2044A0F6207E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CrossCutting", "CrossCutting", "{4E8B21B8-BF82-46BE-BA67-541C70D723ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ENGSOFT.EShop.CrossCutting", "CrossCutting\ENGSOFT.EShop.CrossCutting\ENGSOFT.EShop.CrossCutting.csproj", "{CEA56B4B-A3D3-4044-A84B-D31A85792110}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDFE79F5-7069-4BC0-A97B-2044A0F6207E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDFE79F5-7069-4BC0-A97B-2044A0F6207E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDFE79F5-7069-4BC0-A97B-2044A0F6207E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDFE79F5-7069-4BC0-A97B-2044A0F6207E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEA56B4B-A3D3-4044-A84B-D31A85792110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEA56B4B-A3D3-4044-A84B-D31A85792110}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEA56B4B-A3D3-4044-A84B-D31A85792110}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEA56B4B-A3D3-4044-A84B-D31A85792110}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CA1285CD-74E2-4CF7-BADF-34EC604546FE} = {AE9586B8-4ACF-4F8D-86E4-9786C17F1F4B}
+		{BDFE79F5-7069-4BC0-A97B-2044A0F6207E} = {CA1285CD-74E2-4CF7-BADF-34EC604546FE}
+		{CEA56B4B-A3D3-4044-A84B-D31A85792110} = {4E8B21B8-BF82-46BE-BA67-541C70D723ED}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C0F3324-51C9-4475-94F6-72BAB389362F}
+	EndGlobalSection
+EndGlobal
