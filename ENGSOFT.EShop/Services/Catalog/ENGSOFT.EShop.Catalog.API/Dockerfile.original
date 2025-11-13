@@ -13,7 +13,6 @@ FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 COPY ["Services/Catalog/ENGSOFT.EShop.Catalog.API/ENGSOFT.EShop.Catalog.API.csproj", "Services/Catalog/ENGSOFT.EShop.Catalog.API/"]
-COPY ["CrossCutting/ENGSOFT.EShop.CrossCutting/ENGSOFT.EShop.CrossCutting.csproj", "CrossCutting/ENGSOFT.EShop.CrossCutting/"]
 RUN dotnet restore "./Services/Catalog/ENGSOFT.EShop.Catalog.API/ENGSOFT.EShop.Catalog.API.csproj"
 COPY . .
 WORKDIR "/src/Services/Catalog/ENGSOFT.EShop.Catalog.API"
